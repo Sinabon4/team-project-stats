@@ -85,9 +85,14 @@
 ## 📸 Скриншоты
 
 ### Результат работы программы
-<img width="2804" height="1302" alt="Снимок экрана 2026-06-17 215919" src="https://github.com/user-attachments/assets/af69b4ac-fe49-454a-9e9b-7d8acd92e863" />
+<img width="2824" height="1766" alt="Снимок экрана 2026-06-17 205114" src="https://github.com/user-attachments/assets/bea2d2d7-debe-4dd8-aefa-322b8c068892" />
+
 ### Ветки проекта на GitHub
+<img width="2164" height="988" alt="Снимок экрана 2026-06-17 222926" src="https://github.com/user-attachments/assets/d01d92ae-5e5d-44b0-af67-ea552715fa4c" />
 
 ###Pull Request с конфликтом
-<img width="2824" height="1766" alt="Снимок экрана 2026-06-17 205114" src="https://github.com/user-attachments/assets/bea2d2d7-debe-4dd8-aefa-322b8c068892" />
+<img width="2804" height="1302" alt="Снимок экрана 2026-06-17 215919" src="https://github.com/user-attachments/assets/af69b4ac-fe49-454a-9e9b-7d8acd92e863" />
+
+
+
 
