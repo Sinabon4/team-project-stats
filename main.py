@@ -31,6 +31,8 @@ def read_currency_data(filename):
             rates.append(rate)
     
     return dates, rates
+
+
 # ============================================
 # ДОБАВЛЕНО ВТОРЫМ УЧАСТНИКОМ (me000001k)
 # Функция для расчёта скользящей средней
@@ -52,12 +54,11 @@ def moving_average(data, window_size):
     
     return result
 
+
 def main():
     """Основная функция программы"""
     print("=" * 50)
-feature/me000001k
     print("📊 АНАЛИЗ КУРСА ВАЛЮТ (финальная версия)")
-    dev
     print("=" * 50)
     
     filename = "currency_data.txt"
@@ -78,14 +79,10 @@ feature/me000001k
             print(f"{dates[i]:<15} {rates[i]:<15.2f}")
         print("-" * 50)
         
-         # ============================================
+        # ============================================
         # ДОБАВЛЕНО ВТОРЫМ УЧАСТНИКОМ (me000001k)
         # Расчёт скользящей средней и прогноза
         # ============================================
-        # Расчёт скользящей средней
-        window_size = 5
-        print(f"\n📊 СКОЛЬЗЯЩАЯ СРЕДНЯЯ (окно = {window_size} дней):")
-                # Расчёт скользящей средней
         window_size = 5
         print(f"\n📊 СКОЛЬЗЯЩАЯ СРЕДНЯЯ (окно = {window_size} дней):")
         print("-" * 50)
@@ -106,11 +103,12 @@ feature/me000001k
             print(f"\n🔮 ПРОГНОЗ на следующий день: {last_avg:.2f} руб.")
         else:
             print("⚠️ Недостаточно данных для расчёта скользящей средней")
-
+    
     except FileNotFoundError as e:
         print(f"❌ Ошибка: {e}")
     except Exception as e:
         print(f"❌ Произошла ошибка: {e}")
+
 
 if __name__ == "__main__":
     main()
