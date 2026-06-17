@@ -55,7 +55,9 @@ def moving_average(data, window_size):
 def main():
     """Основная функция программы"""
     print("=" * 50)
-    print("📊 АНАЛИЗ КУРСА ВАЛЮТ (версия от me000001k)")
+feature/me000001k
+    print("📊 АНАЛИЗ КУРСА ВАЛЮТ (финальная версия)")
+    dev
     print("=" * 50)
     
     filename = "currency_data.txt"
