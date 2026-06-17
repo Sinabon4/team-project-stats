@@ -35,7 +35,7 @@ def read_currency_data(filename):
 def main():
     """Основная функция программы"""
     print("=" * 50)
-    print("📊 АНАЛИЗ КУРСА ВАЛЮТ")
+    print("📊 АНАЛИЗ КУРСА ВАЛЮТ (версия от Sinabon4)")
     print("=" * 50)
     
     filename = "currency_data.txt"
