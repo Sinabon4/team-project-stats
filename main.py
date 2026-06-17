@@ -55,7 +55,7 @@ def moving_average(data, window_size):
 def main():
     """Основная функция программы"""
     print("=" * 50)
-    print("📊 АНАЛИЗ КУРСА ВАЛЮТ")
+    print("📊 АНАЛИЗ КУРСА ВАЛЮТ (версия от me000001k)")
     print("=" * 50)
     
     filename = "currency_data.txt"
@@ -104,7 +104,7 @@ def main():
             print(f"\n🔮 ПРОГНОЗ на следующий день: {last_avg:.2f} руб.")
         else:
             print("⚠️ Недостаточно данных для расчёта скользящей средней")
-            
+
     except FileNotFoundError as e:
         print(f"❌ Ошибка: {e}")
     except Exception as e:
